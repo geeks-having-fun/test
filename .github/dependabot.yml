@@ -19,3 +19,5 @@ updates:
     directory: /src/Presentation.Cli
     schedule:
       interval: daily
+    ignore:
+      - dependency-name: my-lib*
