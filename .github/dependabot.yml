@@ -10,5 +10,5 @@ updates:
     schedule:
       interval: "daily"
     ignore:
-      - dependency-name: "Microsoft.Extensions.Configuration.*"
+      - dependency-name: "Microsoft.Extensions.*"
         versions: "2.0"
