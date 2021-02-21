@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: nuget
-    directory: /
+    directory: /src/my-lib/
     schedule:
       interval: daily
     ignore:
@@ -15,3 +15,7 @@ updates:
           - 2.*
           - 3.*
           - 5.*
+  - package-ecosystem: nuget
+    directory: /src/Presentation.Cli
+    schedule:
+      interval: daily
