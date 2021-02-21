@@ -11,4 +11,7 @@ updates:
       interval: "daily"
     ignore:
       - dependency-name: "Microsoft.Extensions.*"
-        versions: "5.*"
+        versions:
+	  - "2.*" 
+	  - "3.*"
+	  - "5.*"
